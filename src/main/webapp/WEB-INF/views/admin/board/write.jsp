@@ -48,7 +48,7 @@ $(document).ready(function() {
 		$.ajax({
 			data : data,
 			type : "POST",
-			url : "/uploadSummernoteImageFile",
+			url : "/team/uploadSummernoteImageFile",
 			contentType : false,
 			processData : false,
 			success : function(data) {
