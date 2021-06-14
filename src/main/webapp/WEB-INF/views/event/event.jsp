@@ -17,14 +17,15 @@
 	<div class="event_dw">
 		<div class="wrap">
 		
-		<!-- c foreach로  디비에서 불러오기  및 페이징 처리   -->		
+		<!-- c foreach로  디비에서 불러오기  및 페이징 처리   -->	
+		<c:forEach var="board" items="${list }">	
 			<div>
-				<img alt="" src="" >
-				<p class="title">$(m.title)</p>
-				<p class="date">$(m.begin) ~ $(m.end)</p>
+				<img alt="${empty board.board_file ? '없음' : ''}" src="${board.board_file }" >
+				<p class="title">$(board.board_title)</p>
+				<p class="date">$(board.board_date) ~ end</p>
 			</div>	
 		</div>
-	
+		</c:forEach>
 	</div>
 	
 </div>
