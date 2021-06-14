@@ -26,8 +26,8 @@ $(document).ready(function() {
 			    // [groupName, [list of button]]
 			    ['fontname', ['fontname']],
 			    ['fontsize', ['fontsize']],
-			    ['style', ['bold', 'italic', 'underline','strikethrough', 'clear']],
-			    ['color', ['forecolor','color']],
+			    ['style', ['bold', 'italic', 'underline', 'clear']],
+			    ['color', ['color']],
 			    ['table', ['table']],
 			    ['para', ['ul', 'ol', 'paragraph']],
 			    ['height', ['height']],
